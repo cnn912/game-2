@@ -1,0 +1,17 @@
+i=1
+import random
+num =random.randint(1,100)
+while i<= 5:
+     i=i+1
+     a=int(input("你想猜的数： "))
+     if a==num:
+        break
+     elif a>num:
+        print("大了")
+     else :
+        print("小了")
+if i<=5:
+     print("答对啦！")
+else:
+     print("次数用完了")
+print(num)
